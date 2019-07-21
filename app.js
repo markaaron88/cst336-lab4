@@ -7,26 +7,25 @@ app.get("/", function(req,res){
   res.render("index.html");
 });
 
-app.get("/mercury", function(req, res){
+app.get("/mercury", function(req,res){
   res.render("mercury.html");
 });
 
-app.get("/venus", function(req, res){
+app.get("/venus", function(req,res){
   res.render("venus.html");
 });
 
-app.get("/earth", function(req, res){
+app.get("/earth", function(req,res){
   res.render("earth.html");
 });
 
-app.get("/jupiter", function(req, res){
+app.get("/jupiter", function(req,res){
   res.render("jupiter.html");
 });
 
-app.get("/earth", function(req, res){
-  res.render("earth.html");
+app.get("/mars", function(req,res){
+  res.render("mars.html");
 });
-
 
 
 //server listener
