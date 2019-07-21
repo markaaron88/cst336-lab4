@@ -8,7 +8,7 @@ app.get("/", function(req,res){
 });
 
 app.get("/mercury", function(req,res){
-  res.render("mercury");
+  res.render("mercury.html");
 });
 
 app.get("/venus", function(req,res){
@@ -21,10 +21,6 @@ app.get("/earth", function(req,res){
 
 app.get("/jupiter", function(req,res){
   res.render("jupiter.html");
-});
-
-app.get("/mars", function(req,res){
-  res.render("mars.html");
 });
 
 
