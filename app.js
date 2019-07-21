@@ -7,7 +7,7 @@ app.get("/", function(req,res){
   res.render("index.html");
 });
 
-app.get("/mercury", function(req, res){
+app.get("/", function(req, res){
   res.render("mercury.html");
 });
 
@@ -26,8 +26,6 @@ app.get("/jupiter", function(req, res){
 app.get("/earth", function(req, res){
   res.render("earth.html");
 });
-
-
 
 
 
