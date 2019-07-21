@@ -1,6 +1,7 @@
 body{
-  background-color: #CBE2F6;
-  text-align: center;
+ background-color:rgb(103, 112, 128);
+ color:#99c1ff;
+ text-align: center;
 }
 p1{
   font-family: "Gill Sans", sans-serif;
@@ -10,7 +11,8 @@ p1{
   font-weight: bold;
 }
 h1{
-  font-family:'Bahianita', cursive;
+  font-family: "Gill Sans", sans-serif;
+  color: grey;
   font-size: 4em;
   margin-bottom 0px;
   text-align:center;
