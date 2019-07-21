@@ -7,7 +7,7 @@ app.get("/", function(req,res){
   res.render("index.html");
 });
 
-app.get("/", function(req, res){
+app.get("/mercury", function(req, res){
   res.render("mercury.html");
 });
 
