@@ -2,26 +2,23 @@ body{
  background-color:rgb(103, 112, 128);
  color:#99c1ff;
  text-align: center;
+ font-family: "Gill Sans", sans-serif; 
 }
-p1{
-  font-family: "Gill Sans", sans-serif;
-  font-size: 2em;
+p{
   margin-bottom 0px;
-  text-align:center;
   font-weight: bold;
 }
 h1{
-  font-family: "Gill Sans", sans-serif;
   color:white;
   font-size: 4em;
   margin-bottom 0px;
-  text-align:center;
 }
-p{
-  font-family: "Gill Sans", sans-serif;
+.medium-text{
+  font-size: 2em;
+}
+.large-text{
   font-size: 3em;
-  margin-bottom 0px;
-  text-align:center;
-  font-weight: bold;
-  
+}
+.planet-name{
+  font-family: "Roboto Slab", serif;
 }

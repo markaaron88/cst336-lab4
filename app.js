@@ -25,6 +25,10 @@ app.get("/jupiter", function(req,res){
 
 
 //server listener
-app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("Express Server is Running...")
-});
+//app.listen("8081", "0.0.0.0", function(){
+  // console.log("Express Server is Running...")
+//});
+
+ app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("Express Server is Running...")
+ });
